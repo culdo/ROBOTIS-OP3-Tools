@@ -1,11 +1,11 @@
-brightness: 40
+brightness: 156
 contrast: 128
 saturation: 128
 sharpness: 128
 gain: 255
 focus_auto: false
-focus_absolute: -1
+focus_absolute: 10
 exposure_auto: 1
-exposure_absolute: 80
+exposure_absolute: 28
 white_balance_temperature_auto: false
 white_balance_temperature: 4000

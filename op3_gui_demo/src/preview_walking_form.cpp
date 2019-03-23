@@ -115,8 +115,8 @@ void PreviewWalkingForm::on_button_send_foot_distance_clicked(bool check)
 
 void PreviewWalkingForm::on_button_p_walking_init_pose_clicked(bool check)
 {
-  std::string ini_pose_path = ros::package::getPath(ROS_PACKAGE_NAME) + "/config/init_pose.yaml";
-  qnode_op3_->parseIniPoseData(ini_pose_path);
+//  std::string ini_pose_path = ros::package::getPath(ROS_PACKAGE_NAME) + "/config/init_pose.yaml";
+//  qnode_op3_->parseIniPoseData(ini_pose_path);
 
   std_msgs::Bool msg;
   msg.data = true;
